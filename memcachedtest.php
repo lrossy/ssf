@@ -1,0 +1,4 @@
+<?php
+$m = new Memcached();
+
+?>

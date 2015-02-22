@@ -1,0 +1,46 @@
+﻿INSERT INTO `27_ssf`.`groups`(`id`,`name`,`description`) VALUES ( '3','premium','Premium User');
+
+/*
+SQLyog Community v8.81 
+MySQL - 5.1.39-log 
+*********************************************************************
+*/
+/*!40101 SET NAMES utf8 */;
+
+create table `nhl_sched_team_map` (
+	`nhl_schedule_team` varchar (765),
+	`team_id` int (11),
+	`short_name` varchar (765)
+); 
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('ANAHEIM','1000011','ANA');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('BUFFALO\r\n','1000019','BUF');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('CALGARY\r\n','1000009','CGY');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('CAROLINA\r\n','1000017','CAR');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('CHICAGO\r\n','1000015','CHI');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('COLORADO\r\n','1000008','COL');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('COLUMBUS\r\n','1000024','CBJ');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('DALLAS\r\n','1000025','DAL');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('DETROIT\r\n','1000006','DET');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('EDMONTON\r\n','1000030','EDM');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('FLORIDA\r\n','1000016','FLA');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('LOS ANGELES\r\n','1000029','LAK');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('MINNESOTA\r\n','1000027','MIN');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('MontrÃ©al\r\n','1000018','MTL');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('MONTREAL\r\n','1000018','MTL');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('NASHVILLE\r\n','1000022','NSH');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('NEW JERSEY\r\n','1000014','NJD');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('NY ISLANDERS\r\n','1000013','NYI');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('NY RANGERS\r\n','1000002','NYR');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('OTTAWA\r\n','1000004','OTT');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('PHILADELPHIA\r\n','1000026','PHI');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('PHOENIX','1000028','PHX');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('PITTSBURGH','1000003','PIT');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('SAN JOSE','1000012','SJS');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('ST LOUIS','1000023','STL');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('TAMPA BAY','1000001','TBL');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('TORONTO','1000005','TOR');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('VANCOUVER','1000010','VAN');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('WASHINGTON','1000020','WSH');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('Winnipeg','1000021','WPG');
+insert into `nhl_sched_team_map` (`nhl_schedule_team`, `team_id`, `short_name`) values('BOSTON','1000007','BOS');
+
