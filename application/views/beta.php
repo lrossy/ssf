@@ -56,7 +56,7 @@
 					</div><!--  left banner-->
                         
                     <div class="banner_rht">
-                        <iframe frameborder="no" height="255px" id="myiframe" scrolling="no" src="http://statsmachine.ca/stats/embed/CVajhK" width="380px"></iframe>
+                        <iframe frameborder="no" height="255px" id="myiframe" scrolling="no" src="http://104.131.18.102/stats/embed/CVajhK" width="380px"></iframe>
 					</div><!--  left banner-->
 				<div style="clear:both; height:0px;"> </div>
 				</div><!-- middle curve -->
